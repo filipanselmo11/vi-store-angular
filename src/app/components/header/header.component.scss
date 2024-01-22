@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Righteous&display=swap');
+
+.app-header {
+  .mat-toolbar {
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+
+  .mat-toolbar__span {
+    width: 222px;
+    height: 69px;
+    margin: 0 16px;
+    color: #515053;
+    font-family: Righteous, sans-serif;
+    font-size: 56.455px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mat-boolbar__buttons {
+    display: flex;
+    margin-left: 700px;
+  }
+
+  .mat-button__span-1 {
+    color: #49484B;
+
+    /* Cabeçalho */
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mat-button__span-2 {
+    color: #49484B;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mat-button__span-3 {
+    color: #49484B;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mat-button__span-4 {
+    color: #49484B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mdc-button--raised {
+    display: flex;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #6A686C;
+    margin-left: 20px;
+  }
+
+  .mat-raised-button__span-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
