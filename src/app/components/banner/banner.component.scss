@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Righteous&display=swap');
+
+.app-banner {
+  position: absolute;
+  margin-top: 39px;
+  margin-left: 32px;
+  // background-color: #49484B;
+  // width: 100%;
+
+  .app-banner__h1 {
+    width: 532px;
+    color: #49484B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 109.091% */
+    /* 109.091% */
+
+  }
+
+  .app-banner__p {
+    color: #737B7D;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    /* 83.333% */
+  }
+
+  .app-banner__p strong {
+    color: #453c57;
+    // #515053
+  }
+
+  .app-banner__ul {
+    color: #737B7D;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-unthemed.mat-mdc-button-base {
+    width: 279px;
+    height: 50px;
+    border-radius: 50px;
+    background: #6A686C;
+    color: #FFFFFF;
+    // flex-shrink: 0;
+  }
+
+  .app-banner__img {
+    display: flex;
+    margin-left: 732px;
+    margin-top: -340px;
+  }
+}

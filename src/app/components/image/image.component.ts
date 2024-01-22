@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 @Component({
-  selector: 'app-banner',
+  selector: 'app-image',
   standalone: true,
   imports: [MatButtonModule],
-  templateUrl: './banner.component.html',
-  styleUrl: './banner.component.scss'
+  templateUrl: './image.component.html',
+  styleUrl: './image.component.scss'
 })
-export class BannerComponent {
+export class ImageComponent {
 
 }

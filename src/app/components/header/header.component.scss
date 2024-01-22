@@ -3,7 +3,7 @@
 .app-header {
   .mat-toolbar {
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #f3f3f3;
   }
 
   .mat-toolbar__span {
@@ -78,5 +78,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+
+  .mdc-button--raised {
+    color: orange;
   }
 }

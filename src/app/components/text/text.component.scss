@@ -1,0 +1,120 @@
+.app-text {
+  position: absolute;
+  margin-top: 466px;
+  margin-left: 32px;
+
+  .app-text__h1 {
+    color: #443D52;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 375% */
+    font-variant: all-small-caps;
+  }
+
+  .app-text__h2 {
+    width: 330px;
+    color: #49484B;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132%;
+    margin-top: -34px;
+    // word-wrap: break-word;
+    /* 47.52px */
+  }
+
+  .app-text__p {
+    width: 396px;
+    height: 166px;
+    color: #737B7D;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 32px;
+    /* 177.778% */
+    // flex-shrink: 0;
+  }
+
+  .app-text__circulo-1 {
+    position: absolute;
+    margin-left: 444px;
+    margin-top: -344px;
+    width: 80px;
+    height: 80px;
+    fill: #ADABAE;
+    // flex-shrink: 0;
+  }
+
+  .app-text-circle__span {
+    position: absolute;
+    margin-left: 444px;
+    margin-top: -256px;
+    color: #49484B;
+    font-family: Inter, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    /* 27.72px */
+  }
+
+  .app-text-circle__p {
+    width: 259px;
+    height: 241px;
+    flex-shrink: 0;
+    color: #737B7D;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 444px;
+    /* 177.778% */
+  }
+
+  .app-text__circulo-2 {
+    position: absolute;
+    margin-left: 941px;
+    margin-top: -344px;
+    width: 80px;
+    height: 80px;
+    fill: #ADABAE;
+    // flex-shrink: 0;
+  }
+
+  .app-text-circle__span-2 {
+    position: absolute;
+    margin-left: 941px;
+    margin-top: -256px;
+    color: #49484B;
+    font-family: Inter, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    /* 27.72px */
+  }
+
+  .app-text-circle__p-2 {
+    width: 259px;
+    height: 241px;
+    flex-shrink: 0;
+    color: #737B7D;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 941px;
+    /* 177.778% */
+  }
+}
