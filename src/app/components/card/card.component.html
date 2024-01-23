@@ -1,0 +1,22 @@
+<div class="app-card">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ titulo }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <img mat-card-image [src]="src" [alt]="alt">
+      <span class="mat-card-content__span">{{ textTitle }}</span>
+      <p class="mat-card-content__p">
+        {{ paragrafo }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>
+        <span class="mat-raised-button__span">
+          COMPRAR
+        </span>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>

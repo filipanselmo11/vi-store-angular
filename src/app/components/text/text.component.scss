@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 .app-text {
   position: absolute;
   margin-top: 466px;
@@ -5,7 +7,7 @@
 
   .app-text__h1 {
     color: #443D52;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -17,7 +19,7 @@
   .app-text__h2 {
     width: 330px;
     color: #49484B;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +33,7 @@
     width: 396px;
     height: 166px;
     color: #737B7D;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 591;
@@ -55,7 +57,7 @@
     margin-left: 444px;
     margin-top: -256px;
     color: #49484B;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -68,7 +70,7 @@
     height: 241px;
     flex-shrink: 0;
     color: #737B7D;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -94,7 +96,7 @@
     margin-left: 941px;
     margin-top: -256px;
     color: #49484B;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +109,7 @@
     height: 241px;
     flex-shrink: 0;
     color: #737B7D;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

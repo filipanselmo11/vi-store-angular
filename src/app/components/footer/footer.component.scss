@@ -1,6 +1,44 @@
 .app-footer {
-  width: 1366px;
-  height: 203px;
-  // flex-shrink: 0;
   background-color: #9A989B;
+  color: #fff;
+  padding: 15px;
+  position: absolute;
+  bottom: -1493px;
+  width: 100%;
+
+  .mldm {
+    width: 85.312px;
+    height: 27.82px;
+    // flex-shrink: 0;
+  }
+
+  .redes-sociais {
+    position: absolute;
+    top: 22px;
+    left: 653px;
+  }
+
+  .youtube {
+    position: absolute;
+    left: 37px;
+    top: -1px;
+  }
+
+  .whatssap {
+    position: absolute;
+    left: 80px;
+    top: -1px;
+  }
+
+  .youtube {
+    position: absolute;
+    left: 147px;
+    top: -1px;
+  }
+
+  .instagram {
+    position: absolute;
+    left: 223px;
+    top: -1px;
+  }
 }

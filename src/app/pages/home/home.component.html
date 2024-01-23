@@ -1,3 +1,17 @@
-<app-banner></app-banner>
-<app-text></app-text>
-<app-image></app-image>
+<div class="app-home">
+  <app-banner></app-banner>
+  <app-text></app-text>
+  <app-image></app-image>
+  <div class="card-wrap">
+    <app-card [titulo]="primeiroTitulo" [src]="primeiroSrc" [alt]="primeiroAlt" [textTitle]="primeiroTextTitle"
+      [paragrafo]="primeiroParagrafo">
+    </app-card>
+    <app-card [titulo]="segundoTitulo" [src]="segundoSrc" [alt]="segundoAlt" [textTitle]="segundoTextTitle"
+      [paragrafo]="segundoParagrafo">
+    </app-card>
+    <app-card [titulo]="terceiroTitulo" [src]="terceiroSrc" [alt]="terceiroAlt" [textTitle]="terceiroTextTitle"
+      [paragrafo]="terceiroParagrafo">
+    </app-card>
+  </div>
+
+</div>

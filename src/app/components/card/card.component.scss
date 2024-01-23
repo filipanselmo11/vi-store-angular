@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.app-card {
+  position: absolute;
+  margin-top: 1580px;
+  margin-left: 32px;
+
+  .mat-mdc-card.mdc-card {
+    width: 348px;
+    height: 446px;
+    border-radius: 5px;
+    border: 1px solid #F9F9F9;
+    background: #FFF;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.20), 0px 3px 16px 0px rgba(0, 0, 0, 0.12), 0px 9px 12px 0px rgba(0, 0, 0, 0.14);
+    // flex-shrink: 0;
+  }
+
+  .mat-mdc-card-image.mdc-card__media {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    left: 99px;
+    top: 76px;
+  }
+
+  .mat-mdc-card-title {
+    width: 171px;
+    height: 19px;
+    color: #49484B;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    position: absolute;
+    left: 59px;
+    /* 122.222% */
+    // flex-shrink: 0;
+  }
+
+  .mat-card-content__span {
+    position: absolute;
+    width: 212px;
+    height: 35px;
+    // flex-shrink: 0;
+    // color: orange;
+    color: #777578;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.944px;
+    left: 56px;
+    top: 232px;
+    /* 151.646% */
+  }
+
+  .mat-card-content__p {
+    position: absolute;
+    top: 297px;
+    width: 312px;
+    height: 76px;
+    color: #848B8D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    // flex-shrink: 0;
+  }
+
+  .mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-unthemed.mat-mdc-button-base {
+    position: absolute;
+    left: 61px;
+    top: 383px;
+    width: 223.461px;
+    height: 44.514px;
+    border-radius: 50px;
+    background: #6A686C;
+    color: white;
+    // flex-shrink: 0;
+  }
+}
