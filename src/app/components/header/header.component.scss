@@ -83,4 +83,25 @@
   .mdc-button--raised {
     color: orange;
   }
+
+  @media (max-width: 600px) {
+    .mat-toolbar {
+      margin: 0 auto;
+      background-color: #ece1e1;
+    }
+
+    .mat-toolbar__span {
+      display: flex;
+      font-size: 39px;
+      margin: 0 auto;
+      padding-top: 18px;
+      margin-left: 100px;
+      color: #515053;
+    }
+    // .mat-boolbar__buttons {
+    //   display: flex;
+    //   background-color: orange;
+    //   margin-right: 300px;
+    // }
+  }
 }

@@ -119,4 +119,27 @@
     margin-left: 941px;
     /* 177.778% */
   }
+
+  @media (max-width: 600px) {
+    .app-text__h1 {
+      display: flex;
+      margin-left: 107px;
+      font-size: 20px;
+      margin-top: -68px;
+    }
+
+    .app-text__h2 {
+      display: flex;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 6px;
+    }
+
+    .app-text__p {
+      display: flex;
+      font-size: 15px;
+      padding: 0;
+      white-space: break-spaces
+    }
+  }
 }

@@ -59,4 +59,58 @@
     margin-left: 732px;
     margin-top: -340px;
   }
+
+  @media (max-width: 600px) {
+    .app-banner__h1 {
+      display: flex;
+      margin-top: -17px;
+      color: #49484B;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: "Inter", sans-serif;
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 60px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .app-banner__p {
+      display: flex;
+      color: #737B7D;
+      font-family: "Inter", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
+    .app-banner__p strong {
+      color: #453c57;
+      display: flex;
+      margin-right: 2px;
+    }
+
+    .app-banner__ul {
+      display: flex;
+      color: #737B7D;
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      list-style: none;
+      flex-direction: column;
+      margin-left: 68px;
+    }
+
+    .mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-unthemed.mat-mdc-button-base {
+      display: flex;
+      color: orange;
+      margin-top: 33px;
+      margin-left: 28px;
+    }
+  }
 }

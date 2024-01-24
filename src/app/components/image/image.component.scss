@@ -85,4 +85,28 @@
     line-height: normal;
   }
 
+  @media (max-width: 600px) {
+    img {
+      display: flex;
+      height: 449px;
+      margin-top: -342px;
+      margin-left: 17px;
+    }
+
+    .app-image__h2 {
+      display: flex;
+      margin-top: 26px;
+      font-size: 21px;
+      margin-left: 22px;
+    }
+
+    .app-image__p {
+      display: flex;
+      margin-left: 1px;
+      margin-top: 64px;
+      font-size: 15px;
+      white-space: break-spaces;
+    }
+  }
+
 }
